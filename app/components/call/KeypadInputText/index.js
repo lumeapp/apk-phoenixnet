@@ -29,8 +29,8 @@ const KeypadInputText = ({style, textStyle, value, editable, onBackspacePress, o
 }
 
 KeypadInputText.propTypes = {
-  style: View.propTypes.style,
-  textStyle: Text.propTypes.style,
+  style: PropTypes.object,
+  textStyle: PropTypes.object,
   value: PropTypes.string.isRequired,
   editable: PropTypes.bool,
   onBackspacePress: PropTypes.func,
